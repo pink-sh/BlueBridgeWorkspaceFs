@@ -7,6 +7,10 @@ The driver implements FUSE (Filesystem in userspace)
 In this version just tree browsing is implemented.
 
 ### Usage
+To run on Debian/Ubuntu systems ensure that fuse is installed otherwise
+```sh
+sudo apt-get install fuse libfuse-dev
+```
 
 In the build/libs folder run the jar as:
 ```sh
